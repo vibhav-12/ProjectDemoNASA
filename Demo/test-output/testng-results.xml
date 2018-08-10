@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196393" started-at="2018-08-08T12:18:22Z" finished-at="2018-08-08T12:21:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:step_definitions.RunnerTest@5e853265]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="196393" started-at="2018-08-08T12:18:22Z" finished-at="2018-08-08T12:21:38Z">
+      <class name="step_definitions.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:step_definitions.RunnerTest@5e853265]" name="setUpClass" is-config="true" duration-ms="249" started-at="2018-08-08T17:48:22Z" finished-at="2018-08-08T17:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:step_definitions.RunnerTest@5e853265]" name="feature" duration-ms="103005" started-at="2018-08-08T17:48:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-08T17:50:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify that user is able to edit value of quantity, price paid, S&H, tax and S&H tax.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:step_definitions.RunnerTest@5e853265]" name="feature" duration-ms="92442" started-at="2018-08-08T17:50:05Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-08T17:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify that search functionality & the functionality available under Customer section works correctly.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:step_definitions.RunnerTest@5e853265]" name="teardown" is-config="true" duration-ms="255" started-at="2018-08-08T17:51:38Z" finished-at="2018-08-08T17:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:step_definitions.RunnerTest@5e853265]" name="tearDownClass" is-config="true" duration-ms="348" started-at="2018-08-08T17:51:38Z" finished-at="2018-08-08T17:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- step_definitions.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
